@@ -8,6 +8,8 @@ public class PrimeNumbers {
 
         while(primeNumberList.size() < 10){
             ArrayList<Integer> myDividers = divisors(n);
+
+            // Call divisors method. If the number of divisors is 2, the number is a prime number.
             if (myDividers.size() == 2){
                 primeNumberList.add(n);
             }
@@ -16,6 +18,9 @@ public class PrimeNumbers {
 
         System.out.println(primeNumberList.toString());
     }
+
+    // Method to determine the divisors for a given number
+
     static ArrayList<Integer> divisors(int number){
         ArrayList<Integer> divisorList = new ArrayList<>();
         for (int m=0; m<number; m++){
