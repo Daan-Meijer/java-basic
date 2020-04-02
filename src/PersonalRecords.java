@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// This program allows the user to look up the birthday and phone number for an existing name in an array.
+
 public class PersonalRecords {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

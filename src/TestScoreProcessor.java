@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Random;
 
+// This program generates 20 random test scores out of a maximum score of 100, then shows how many test scores are between 85 and 90
+
 public class TestScoreProcessor {
     public static void main(String[] args) {
         Random random = new Random();

@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// This program determines the first 10 prime numbers, starting with 1.
+
 public class PrimeNumbers {
     public static void main(String[] args) {
         ArrayList<Integer> primeNumberList = new ArrayList<>();

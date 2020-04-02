@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+// This program asks the user for the lowest and highest temperatures for each month of the year and returns these numbers in separate lists.
+
 public class TemperaturesHighLow {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
