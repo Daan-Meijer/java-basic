@@ -92,7 +92,6 @@ public class Hangman extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
-
         String myGuess = textField.getText().toLowerCase();
         if (guessedLetters.getText().equals("")){
             guessedLetters.setText(myGuess);
